@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?familyPoppins");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name-title h1 {
+  margin: 0;
+  font-size: 2.2em;
+  color: #333;
+}
+
+.name-title h2 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.contact-info {
+  margin-top: 10px;
+  color: #777;
+}
+
+.main-content p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+ul li h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+ul li p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.experience-education {
+  margin-top: 20px;
+}
+
+.experience,
+.education {
+  margin-bottom: 20px;
+}
+
+.skills,
+.languages,
+.organization {
+  margin-top: 20px;
+}
+
+.skills ul li h4 {
+  margin: 0;
+  margin-left: -5px;
+}
+
+.skills p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #777;
+  margin-left: 10px;
+}
+
+.skills ul,
+.languages ul,
+.organization ul {
+  padding-left: 5px;
+}
+
+.skills ul li,
+.languages ul li,
+.organization ul li {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #777;
+}
